@@ -1,0 +1,47 @@
+🧙‍♂️ Calculadora de Partidas Rankeadas – Terra Média
+💡 Descrição
+
+Projeto desenvolvido como parte do desafio da DIO, aplicando lógica de programação com JavaScript.
+A proposta original era criar uma calculadora de partidas ranqueadas, mas neste projeto a ideia foi recriada com temática inspirada no universo de O Senhor dos Anéis, onde cada guerreiro da Terra Média possui um nível de poder conforme suas vitórias em batalha ⚔️.
+
+🧩 Conceitos utilizados
+
+O código faz uso dos seguintes fundamentos de lógica de programação:
+
+Variáveis
+
+Operadores matemáticos
+
+Laços condicionais (if / else if / else)
+
+Funções com parâmetros e retorno
+
+Saída no console
+
+⚙️ Funcionamento
+
+A função calcularNivelTerraMedia() recebe três parâmetros:
+
+(vitorias, derrotas, nomeDoGuerreiro)
+
+
+Com base no número de vitórias, o guerreiro recebe um título da Terra Média conforme sua performance.
+Além disso, é aplicado um bônus de +10 pontos no saldo final.
+
+🧮 Cálculo
+
+O saldo é calculado da seguinte forma:
+
+pontosPorVitoria = (vitórias - derrotas) + 10
+
+
+E a classificação segue a seguinte tabela:
+
+Vitórias	Nível
+Menos de 10	Hobbit Iniciante 🧝‍♂️
+11 a 20	Guerreiro de Gondor ⚔️
+21 a 30	Cavaleiro de Rohan 🐎
+31 a 60	Elfo Sindarin 🌿
+61 a 75	Anão de Erebor ⛏️
+76 a 90	Mago Branco 🔮
+91 a 100	Senhor dos Anéis 💍
